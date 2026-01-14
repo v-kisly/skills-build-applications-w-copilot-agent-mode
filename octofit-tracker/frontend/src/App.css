@@ -1,0 +1,129 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #23395d;
+}
+
+
+.App-logo {
+  height: 48px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #23395d 0%, #406e8e 100%);
+  color: #fff;
+  padding: 2rem 0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+
+.App-link, a {
+  color: #406e8e;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover {
+  color: #23395d;
+}
+
+/* Bootstrap Table Customization */
+.table-primary th, .table-primary td {
+  background-color: #e0eafc !important;
+  color: #23395d !important;
+}
+
+table.table thead th {
+  background-color: #406e8e !important;
+  color: #fff !important;
+}
+
+table.table tbody tr {
+  background-color: #f7fbff;
+}
+
+/* Bootstrap Button Customization */
+.btn-primary, .btn-outline-primary {
+  background-color: #406e8e;
+  border-color: #406e8e;
+  color: #fff;
+}
+.btn-primary:hover, .btn-outline-primary:hover {
+  background-color: #23395d;
+  border-color: #23395d;
+}
+.btn-success, .btn-outline-success {
+  background-color: #4bb543;
+  border-color: #4bb543;
+  color: #fff;
+}
+.btn-success:hover, .btn-outline-success:hover {
+  background-color: #357a38;
+  border-color: #357a38;
+}
+.btn-info, .btn-outline-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #fff;
+}
+.btn-info:hover, .btn-outline-info:hover {
+  background-color: #117a8b;
+  border-color: #117a8b;
+}
+.btn-warning, .btn-outline-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #23395d;
+}
+.btn-warning:hover, .btn-outline-warning:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+  color: #fff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .display-4 {
+  color: #23395d;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: linear-gradient(90deg, #23395d 0%, #406e8e 100%) !important;
+  box-shadow: 0 2px 8px rgba(64, 110, 142, 0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
