@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import Activities from './components/Activities';
 import Leaderboard from './components/Leaderboard';
