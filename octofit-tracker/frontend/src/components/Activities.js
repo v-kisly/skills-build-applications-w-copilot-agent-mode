@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Card, Table, Button } from 'react-bootstrap';
 
 const Activities = () => {
   const [activities, setActivities] = useState([]);
